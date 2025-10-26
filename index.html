@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <h1>Daily Quote</h1>
+<body class="flex justify-center mt-[30px]">
+    <div class="w-[300px] bg-white border-2 h-[165px] p-5">
+    <h1 class="text-[30px] font-bold">Daily Quote</h1>
     <p id="quoteText">click this button for motivation</p>
     <div>
-    <button onclick="showQuote">Next Quote</button>
+    <button onclick="showQuote()" class="bg-blue-500 w-[130px] h-[30px] rounded-[5px] text-[20px] mt-3">Next Quote</button>
+    </div>
     </div>
 
     <script src="script.js"></script>
