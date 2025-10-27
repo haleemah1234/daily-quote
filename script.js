@@ -12,7 +12,6 @@ let quotes = [
 let index = 0;
 //to show next quote
 function showQuote() {
-    alert("button clicked");
     let quoteDisplay = document.getElementById("quoteText");
 
     quoteDisplay.innerText = quotes[index];
